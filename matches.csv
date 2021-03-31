@@ -261,7 +261,7 @@ logsID,region,date,map,length,numplayers,blu_score,red_score
 2870864,NAm,2021-03-18,cp_gullywash_final1,1781,12,1,3
 2870937,NAm,2021-03-18,cp_snakewater_final1,1779,12,0,4
 2870954,NAm,2021-03-18,cp_metalworks,1162,13,5,1
-2870967,unknown,2021-03-18,cp_process_f7,957,12,0,3
+2870967,NAm,2021-03-18,cp_process_f7,957,12,0,3
 2872330,NAm,2021-03-20,koth_bagel_rc3,783,12,3,0
 2872358,NAm,2021-03-20,cp_process_f7,1779,12,4,0
 2873337,NAm,2021-03-21,cp_process_f7,1774,12,4,1
