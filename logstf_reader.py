@@ -16,8 +16,8 @@ def steamID3toSteamID(steamID3):
 	else:
 		x = 1
 		y = ((accountID - 1) / 2)
-	steamID = int((y * 2) + (7960265729 + x))
-	return int(steamID)  # this returns the part of the steamID that follows the prefix '7656119'
+	steamID = (y * 2) + x + 7960265728
+	return int(steamID) # returns part of the steamID that follows '7656119'
 
 # read in list of logs.tf IDs
 listFile = open('logs.txt','r')
@@ -41,16 +41,28 @@ for line in listFile:
 		timestamp = date.fromtimestamp(obj['info']['date'])
 		readableDate = timestamp.strftime('%Y-%m-%d')
 		mapName = obj['info']['map']
+		title = obj['info']['title']
 		totalLength = obj['info']['total_length']
 		bluScore = obj['teams']['Blue']['score']
 		redScore = obj['teams']['Red']['score']
+
+		# get region info from title
+		if ('na.serveme.tf' in title):
+			region = 'NA'
+		elif ('sea.serveme.tf' in title):
+			region = 'SEA'
+		elif ('serveme.tf' in title):
+			region = 'EU'
+		else:
+			region = 'unknown'
+
 		
 		# extract player info (steamid3, steamid, steam name, total players)
 		playerDict = obj['names']
 		numPlayers = len(playerDict)
 
 		# write data to matchesTable
-		newRow = {'logsID' : logtfIdInt, 'date' : readableDate, 'map' : mapName, 'length' : totalLength, 'numplayers' : numPlayers, 'blu_score' : bluScore, 'red_score' : redScore}
+		newRow = {'logsID' : logtfIdInt, 'region' : region, 'date' : readableDate, 'map' : mapName, 'length' : totalLength, 'numplayers' : numPlayers, 'blu_score' : bluScore, 'red_score' : redScore}
 		matchesTable = matchesTable.append(newRow, ignore_index=True)
 
 
