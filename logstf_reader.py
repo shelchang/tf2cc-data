@@ -48,7 +48,7 @@ for line in listFile:
 
 		# get region info from title
 		if ('na.serveme.tf' in title):
-			region = 'NA'
+			region = 'NAm'
 		elif ('sea.serveme.tf' in title):
 			region = 'SEA'
 		elif ('serveme.tf' in title):
