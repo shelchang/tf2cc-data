@@ -348,8 +348,6 @@ logsID,region,date,map,length,numplayers,blu_score,red_score
 2890307,NAm,2021-04-09,cp_snakewater_final1,1272,12,5,0
 2890331,NAm,2021-04-09,cp_sunshine,1028,12,0,5
 2890365,NAm,2021-04-09,koth_clearcut_b15d,2057,12,2,3
-2890385,NAm,2021-04-09,pass_arena2_b4,809,10,0,3
-2890398,NAm,2021-04-09,pass_arena2_b4,1474,9,0,5
 2890755,NAm,2021-04-09,koth_product_rcx,1779,12,4,0
 2890776,NAm,2021-04-09,cp_gullywash_final1,1096,12,1,5
 2890789,NAm,2021-04-09,cp_sunshine,1628,12,1,5
@@ -361,3 +359,15 @@ logsID,region,date,map,length,numplayers,blu_score,red_score
 2892282,NAm,2021-04-11,cp_sunshine,1354,13,0,5
 2892310,NAm,2021-04-11,cp_process_final,1799,12,0,0
 2892328,NAm,2021-04-11,koth_product_rcx,811,12,0,3
+2893965,NAm,2021-04-13,cp_sunshine,1321,12,5,0
+2894019,NAm,2021-04-13,cp_snakewater_final1,1784,12,2,1
+2894041,NAm,2021-04-13,cp_process_f7,1774,13,4,1
+2894091,NAm,2021-04-13,cp_gullywash_final1,1443,12,3,5
+2894145,NAm,2021-04-13,cp_villa_b18,1788,13,1,2
+2894682,EU,2021-04-14,ultiduo_baloo_v2,1070,4,0,2
+2894706,EU,2021-04-14,ultiduo_baloo_v2,715,4,2,0
+2894715,NAm,2021-04-14,ultiduo_baloo_v2,1224,4,0,2
+2894736,NAm,2021-04-14,ultiduo_baloo_v2,807,4,2,0
+2894799,EU,2021-04-14,ultiduo_baloo_v2,1682,4,1,2
+2894952,EU,2021-04-14,cp_sunshine,799,12,0,3
+2894970,EU,2021-04-14,cp_metalworks,1748,13,1,4
