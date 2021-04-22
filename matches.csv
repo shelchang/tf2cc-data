@@ -376,14 +376,14 @@ logsID,region,date,map,length,numplayers,blu_score,red_score
 2896750,EU,2021-04-16,cp_sunshine,1066,13,6,1
 2896786,NAm,2021-04-16,cp_process_f7,1769,12,3,3
 2897179,EU,2021-04-17,pl_upward,1507,18,1,0
-2897211,unknown,2021-04-17,cp_process_f7,1539,12,7,0
-2897232,unknown,2021-04-17,cp_snakewater_final1,2181,12,5,5
+2897211,EU,2021-04-17,cp_process_f7,1539,12,7,0
+2897232,EU,2021-04-17,cp_snakewater_final1,2181,12,5,5
 2897487,NAm,2021-04-17,cp_snakewater_final1,1784,12,2,1
 2897520,NAm,2021-04-17,cp_sunshine,1386,12,5,0
 2897543,NAm,2021-04-17,cp_gullywash_final1,743,12,0,5
 2897897,NAm,2021-04-17,cp_snakewater_final1,1559,12,1,5
-2898312,unknown,2021-04-18,cp_sunshine,1738,12,4,2
-2898336,unknown,2021-04-18,cp_process_final,1749,12,3,2
+2898312,EU,2021-04-18,cp_sunshine,1738,12,4,2
+2898336,EU,2021-04-18,cp_process_final,1749,12,3,2
 2898498,EU,2021-04-18,cp_sunshine,1758,13,2,2
 2898558,EU,2021-04-18,koth_clearcut_b15d,1627,12,1,3
 2898601,EU,2021-04-18,koth_bagel_rc3,1758,10,2,2
@@ -393,3 +393,4 @@ logsID,region,date,map,length,numplayers,blu_score,red_score
 2900437,NAm,2021-04-20,cp_sunshine,1779,12,4,0
 2901165,EU,2021-04-21,cp_gullywash_final1,1525,13,5,0
 2901202,EU,2021-04-21,cp_process_final,1749,12,2,4
+2901811,NAm,2021-04-22,ultiduo_baloo_v2,2263,4,1,3
