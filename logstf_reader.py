@@ -1,4 +1,4 @@
-import urllib.request, json
+import urllib.request, json, re
 import numpy as np
 import pandas as pd
 from datetime import date
@@ -24,14 +24,15 @@ listFile = open('logs.txt','r')
 numlogs = 0
 
 # for each ID, get json file
-for line in listFile:
-	logtfIdInt = int(line)
+for eachline in listFile:
+	line = re.search('[0-9]{7}', eachline)
+	logtfIdInt = int(line.group(0))
 
 	if logtfIdInt not in matchesTable['logsID'].values: # check if record already exists in matchesTable
 		print('Getting data from logs.tf/' + str(logtfIdInt) + '...')
 
 		# load json file from URL
-		logUrl = 'http://logs.tf/json/' + line
+		logUrl = 'http://logs.tf/json/' + line.group(0)
 		url = urllib.request.urlopen(logUrl)
 		obj = json.load(url)
 
